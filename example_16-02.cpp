@@ -1,7 +1,7 @@
 // Example 16-2. 2D Feature detectors and 2D Extra Features framework
 //
 // Note, while this code is free to use commercially, not all the algorithms are. For example
-// sift is patented. If you are going to use this commercially, check out the non-free 
+// sift is patented. If you are going to use this commercially, check out the non-free
 // algorithms and secure license to use them.
 //
 
@@ -47,7 +47,7 @@ using cv::KAZE;
 
 using cv::xfeatures2d::BriefDescriptorExtractor;
 using cv::xfeatures2d::SURF;
-using cv::xfeatures2d::SIFT;
+using cv::SIFT; // using cv::xfeatures2d::SIFT;
 using cv::xfeatures2d::DAISY;
 using cv::xfeatures2d::FREAK;
 
